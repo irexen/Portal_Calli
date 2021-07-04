@@ -1,0 +1,20 @@
+{
+  "dev": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-calliapp-dev-133924-authRole",
+      "UnauthRoleArn": "arn:aws:iam::274926347127:role/amplify-calliapp-dev-133924-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::274926347127:role/amplify-calliapp-dev-133924-authRole",
+      "Region": "us-east-2",
+      "DeploymentBucketName": "amplify-calliapp-dev-133924-deployment",
+      "UnauthRoleName": "amplify-calliapp-dev-133924-unauthRole",
+      "StackName": "amplify-calliapp-dev-133924",
+      "StackId": "arn:aws:cloudformation:us-east-2:274926347127:stack/amplify-calliapp-dev-133924/f9c8a0c0-d776-11eb-a16d-062cffb34554",
+      "AmplifyAppId": "d2dbke5abll2x4"
+    },
+    "categories": {
+      "auth": {
+        "calliapp87048f3c": {}
+      }
+    }
+  }
+}

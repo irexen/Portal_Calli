@@ -3,19 +3,38 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "@aws-amplify/analytics": "^5.0.4",
+    "@aws-amplify/interactions": "^4.0.4",
+    "@aws-amplify/storage": "^4.2.1",
+    "@aws-amplify/ui": "^2.0.3",
+    "@aws-amplify/ui-react": "^1.2.4",
+    "@aws-amplify/xr": "^3.0.4",
+    "@szhsin/react-menu": "^1.10.1",
     "@testing-library/jest-dom": "^5.14.1",
     "@testing-library/react": "^11.2.7",
     "@testing-library/user-event": "^12.8.3",
+    "aws-amplify": "^4.1.2",
+    "bootstrap": "^4.6.0",
+    "rc-menu": "^9.0.12",
     "react": "^17.0.2",
+    "react-bootstrap": "^1.6.1",
+    "react-burger-menu": "^2.9.2",
+    "react-data-menu": "^1.1.2",
     "react-dom": "^17.0.2",
+    "react-icons": "^4.2.0",
+    "react-pro-sidebar": "^0.6.0",
+    "react-responsive-navbar": "^1.0.11",
     "react-scripts": "4.0.3",
+    "react-service-worker": "^0.1.1",
     "web-vitals": "^1.1.2"
   },
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"  
   },
   "eslintConfig": {
     "extends": [
@@ -34,5 +53,8 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "gh-pages": "^3.2.3"
   }
 }
